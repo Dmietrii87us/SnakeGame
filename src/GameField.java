@@ -122,7 +122,7 @@ public class GameField extends JPanel implements ActionListener{
         }
     }
 
-    @Override
+    @Override //
     public void actionPerformed(ActionEvent e) {
         if(inGame){
             checkApple();
